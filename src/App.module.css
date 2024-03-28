@@ -1,0 +1,20 @@
+.btn_container {
+  display: flex;
+}
+
+.title {
+  color: rgb(231, 238, 236);
+}
+
+.text {
+  color: rgb(231, 238, 236);
+  font-size: 20px;
+}
+
+.btn_reset {
+  background-color: rgb(15, 115, 90);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(251, 248, 248);
+  margin: 30px;
+}
