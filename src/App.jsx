@@ -3,6 +3,7 @@ import Option from "./components/Option/Option";
 import Feedback from "./components/Feedback/Feedback";
 import Notification from "./Notification/Notification";
 import s from "./App.module.css"
+import { FiCoffee } from "react-icons/fi";
 
 
 const App = () => {
@@ -41,7 +42,7 @@ const App = () => {
 
   return (
     <div>
-        <h1 className={s.title}>Sip Happens Café</h1>
+        <h1 style={{display: "flex", justifyContent:"flex-start", alignItems: "center", gap: "10px"}} className={s.title}>Sip Happens Café <FiCoffee /></h1>
         <p className={s.text}>Please leave your feedback about our service by selecting one of the options below.</p>
 
         <div className={s.btn_container}>
