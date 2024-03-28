@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Option from "./components/Option/Option";
 import Feedback from "./components/Feedback/Feedback";
-import Notification from "./Notification/Notification";
+import Notification from "./components/Notification/Notification";
 import s from "./App.module.css"
 import { FiCoffee } from "react-icons/fi";
 
